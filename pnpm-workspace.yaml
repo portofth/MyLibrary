@@ -1,0 +1,11 @@
+packages:
+  - packages/*
+  - apps/*
+
+# Supply-chain guard: only install package versions published at least 7 days ago.
+minimumReleaseAge: 10080
+
+onlyBuiltDependencies:
+  - better-sqlite3
+  - esbuild
+  - sharp
